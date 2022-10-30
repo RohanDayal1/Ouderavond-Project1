@@ -1,0 +1,507 @@
+* {
+    size: 62.5%;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.nav_container {
+    display: sticky;
+    width: 100vw;
+    max-width: 100%;
+    height: 9rem;
+    background-color: #006445;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+#title_nav {
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    text-decoration: underline;
+    color: white;
+    text-shadow: 0px 2px 2.5px black;
+}
+.list_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 125%;
+    list-style-type: none;
+    padding-top: 1rem;
+}
+.nav_a {
+    display: flex;
+    background-color: #177d5e;
+
+    text-decoration: none;
+    padding: 0.75rem;
+    border-radius: 9px;
+    box-shadow: 0px 2.5px 5px black;
+}
+a {
+    text-decoration: none;
+}
+
+    .dropdown_content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        z-index: 5;
+        box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
+    }
+    .dropdown_content a {
+        color: white;
+        padding: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        background-color: #006445;
+    }
+    .dropdown_btn {
+        display: flex;
+        background-color: #177d5e;
+
+        text-decoration: none;;
+        padding: 0.75rem;
+        border-radius: 9px;
+        box-shadow: 0px 2.5px 5px black;
+    }
+    .a_btn {
+        display: flex;
+    }
+    .dropdown:hover .dropdown_content{
+        display: flex;
+        flex-direction: column;
+    }
+    .a_btn:hover {
+        background-color: #177d5e;
+    }
+
+main {
+    width: 100vw;
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: #004630;
+}
+
+
+
+footer {
+    display: flex;
+    width: 100vw;
+    max-width: 100%;
+    height: 2.5rem;
+    background-color: #006445;
+    justify-content: center;
+    align-items: center;
+}
+.footer_list {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    max-width: 100%;
+    height: 2.5rem;
+    justify-content: space-evenly;
+}
+.footer_a {
+    display: flex;
+    font-size: 150%;
+    padding-top: 0.35rem;
+    text-shadow: 0px 1px black;
+}
+
+.img_footer {
+    display: flex;
+    height: 2.5rem;
+    justify-content: flex-start;
+    background-color: white;
+}
+.canvas_main_header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dbff4a;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+#canvas_title_1 {
+    margin-top: 1%;
+    display: flex;
+    color: black;
+    width: 100%;
+    font-size: 200%;
+    justify-content: center;
+    text-decoration: underline;
+}
+#canvas_header_p {
+    margin: 1% 0;
+    display: flex;
+    color: #004630;
+    width: 65%;
+    font-size: 150%;
+    font-weight: bold;
+    text-shadow: 0px 2.5px 5px #93C837;
+}
+.canvas_header h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 1%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.canvas_header p {
+    max-width: 60%;
+    display: flex;
+    font-size: 150%;
+    margin-left: 4%;
+}
+.canvas_list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    margin-top: 1%;
+}
+.canvas_list li {
+    font-size: 125%;
+    margin-left: 5%;
+}
+#canvas_list_title {
+    display: flex;
+    font-size: 130%;
+    margin-left: 4%;
+}
+
+.canvas_dashboard {
+    margin-top: 1%;
+}
+.canvas_dashboard h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 10%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.canvas_dashboard p {
+    font-size: 125%;
+    margin-left: 4%;
+}
+#br {
+    color: #004630;
+}
+#img_canvas_dashboard {
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1.5%;
+    border: 3px solid #dbff4a;
+}
+.canvas_kalender  {
+    padding-bottom: 2%;
+    width: 50%;
+    margin-left: 4%;
+}
+.canvas_kalender h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.canvas_kalender p {
+    font-size: 125%;
+    margin-left: 4%;
+}
+#img_canvas_kalender {
+    display: flex;
+    width: 100%;
+    margin-left: 25%;
+    margin-top: 1.5%;
+    border: 3px solid #dbff4a;
+}
+.opleiding_header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dbff4a;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.opleiding_header h2 {
+    margin-top: 1%;
+    display: flex;
+    color: black;
+    width: 100%;
+    font-size: 200%;
+    justify-content: center;
+    text-decoration: underline;
+}
+.opleiding_header p {
+    margin: 1% 0;
+    display: flex;
+    color: #004630;
+    width: 65%;
+    font-size: 150%;
+    font-weight: bold;
+    text-shadow: 0px 2.5px 5px #93C837;
+}
+.opleiding_intro h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 1%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.opleiding_intro p {
+    max-width: 80%;
+    display: flex;
+    font-size: 150%;
+    margin-left: 4%;
+}
+.na_opleiding {
+    margin-top: 1%;
+}
+.na_opleiding h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.na_opleiding p {
+    font-size: 125%;
+    margin-left: 4%;
+    max-width: 80%;
+}
+.opleiding_software {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    margin-top: 2%;
+}
+.opleiding_software li {
+    font-size: 125%;
+    margin-left: 5%;
+}
+#opleiding_software_title {
+    display: flex;
+    font-size: 130%;
+    margin-left: 4%;
+}
+.opleiding_video{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1.5%;
+}
+.opleiding_video p {
+    font-size: 125%;
+    margin-left: 4%;
+    max-width: 80%;
+    color:#dbff4a;
+    font-weight: bolder;
+}
+.overrohan_header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dbff4a;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+#overrohan_title {
+    margin-top: 1%;
+    display: flex;
+    color: black;
+    width: 100%;
+    font-size: 200%;
+    justify-content: center;
+    text-decoration: underline;
+}
+.overrohan_header p {
+    margin: 1% 0;
+    display: flex;
+    color: #004630;
+    width: 100;
+    font-size: 150%;
+    font-weight: bold;
+    text-shadow: 0px 2.5px 5px #93C837;
+}
+.overrohan_wie h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.overrohan_wie p{
+    font-size: 125%;
+    margin-left: 4%;
+
+}
+.overrohan_hobbies h3{
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.overrohan_hobbies ul{
+    font-size: 125%;
+    margin-left: 4%;
+    max-width: 80%;
+}
+.overrohan_hobbies h4{
+    font-size: 125%;
+    margin-left: 4%;  
+}
+.overrohan_opleiding h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.overrohan_opleiding p {
+    font-size: 125%;
+    margin-left: 4%;
+}
+.overrohan_rooster h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.overrohan_rooster p {
+    font-size: 125%;
+    margin-left: 4%;
+}
+#rohan1img{
+    display: flex;
+    width: 20%;
+    margin-left: 25%;
+    margin-top: 1.5%;
+    border: 3px solid #dbff4a;
+
+}
+#rohan2img{
+    display: flex;
+    width: 20%;
+    margin-left: 25%;
+    margin-top: 1.5%;
+    border: 3px solid #dbff4a;
+}
+.formulier{
+   margin-left: 1.5%;
+
+}
+.formulier h3{
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.overschool_header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dbff4a;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+#overschool_title {
+    margin-top: 1%;
+    display: flex;
+    color: black;
+    width: 100%;
+    font-size: 200%;
+    justify-content: center;
+    text-decoration: underline;
+}
+.overschool_header p {
+    margin: 1% 0;
+    display: flex;
+    color: #004630;
+    width: 100;
+    font-size: 150%;
+    font-weight: bold;
+    text-shadow: 0px 2.5px 5px #93C837;
+}
+.overschool_opleiding h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.overschool_opleiding p{
+    font-size: 125%;
+    margin-left: 4%;
+
+}
+.overschool_opleiding ul{
+    font-size: 125%;
+    margin-left: 4%;
+    max-width: 80%;
+}
+.overschool_locaties h3{
+    font-size: 125%;
+    margin-left: 4%;  
+}
+.overschool_locaties p {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1.5px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+  }
